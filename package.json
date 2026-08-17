@@ -1,0 +1,26 @@
+{
+  "name": "horizon_teste",
+  "version": "1.0.0",
+  "description": "projeto de teste para horizon",
+  "keywords": [
+    "mytest123!"
+  ],
+  "homepage": "https://github.com/luizadorr/horizontesteldd#readme",
+  "bugs": {
+    "url": "https://github.com/luizadorr/horizontesteldd/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizadorr/horizontesteldd.git"
+  },
+  "license": "ISC",
+  "author": "luizadorr",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
