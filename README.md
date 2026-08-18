@@ -119,3 +119,10 @@ Com o backend funcionando, desenvolvi o frontend em React usando Vite, criando o
 ### GET /api/tasks/:id — Buscar tarefa por ID (200 OK)
 
 ![GET /api/tasks/1](docs/Captura%20de%20tela%20de%202026-08-17%2022-30-16.png)
+
+
+## PUT /api/tasks/:id — Editar tarefa por ID (200 OK)
+![PUT /api/tasks/2](docs/Captura%20de%20tela%20de%202026-08-17%2022-56-54.png)
+
+## PUT /api/tasks/:id — Editar tarefa por ID (404 Tarefa não encontrada)
+![PUT /api/tasks/5](docs/Captura%20de%20tela%20de%202026-08-17%2022-57-18.png)
