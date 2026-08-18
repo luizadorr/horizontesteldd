@@ -21,7 +21,7 @@ function criarTask({ title, description }) {
   return task;
 }
 
-function updateTask(id, data) {
+function update(id, data) {
   const index = tasks.findIndex((t) => t.id === id);
   if (index === -1) return null;
   tasks[index] = { ...tasks[index], ...data };
@@ -35,4 +35,4 @@ function deleteTask(id) {
   return true;
 }
 
-module.exports = { listarTasks, listarporId, criarTask, updateTask, deleteTask };
+module.exports = { listarTasks, listarporId, criarTask, update, deleteTask };
